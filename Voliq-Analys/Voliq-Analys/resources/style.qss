@@ -1,0 +1,69 @@
+QWidget {
+    background-color: #15131a;
+    color: #ece2ff;
+    font-family: 'Segoe UI', 'Consolas', Arial;
+    font-size: 15px;
+}
+QPushButton {
+    background-color: #25144e;
+    color: #b983ff;
+    border: 2px solid #7c3aed;
+    border-radius: 7px;
+    padding: 6px 18px;
+}
+QPushButton:disabled {
+    background-color: #201935;
+    color: #555569;
+    border: 2px solid #28203a;
+}
+QLabel {
+    color: #b983ff;
+    font-weight: bold;
+}
+QLineEdit, QComboBox {
+    background-color: #1a1823;
+    color: #ece2ff;
+    border: 1.5px solid #7c3aed;
+    border-radius: 6px;
+    padding: 3px;
+}
+QTabWidget::pane {
+    border: 2px solid #7c3aed;
+    background: #18181a;
+    border-radius: 11px;
+}
+QTabBar::tab {
+    background: #25144e;
+    color: #b983ff;
+    border: 1px solid #7c3aed;
+    border-bottom: none;
+    min-width: 120px;
+    min-height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 2px;
+}
+QTabBar::tab:selected {
+    background: #1a1823;
+    color: #fff;
+    font-weight: bold;
+}
+QTabBar::tab:!selected {
+    background: #25144e;
+    color: #b983ff;
+}
+QCheckBox {
+    color: #b983ff;
+}
+QMenu {
+    background-color: #25144e;
+    color: #b983ff;
+    border: 1px solid #7c3aed;
+}
+QTextEdit {
+    background-color: #18181a;
+    color: #ece2ff;
+    border: 1.5px solid #7c3aed;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 13px;
+}

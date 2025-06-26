@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "[+] Instalando dependencias del sistema necesarias para Qt y PyQt6..."
+
+# Qt: evita errores del tipo "could not load the Qt platform plugin 'xcb'"
+sudo apt update
+sudo apt install -y qtbase5-dev \
+libxcb-cursor0 libx11-xcb1 libxcb1 libxcb-glx0 libxcb-keysyms1 \
+libxcb-image0 libxcb-shm0 libxcb-icccm4 libxcb-sync1 libxcb-xfixes0 \
+libxcb-shape0 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0
+
+echo "[+] Actualizando pip (en ~/.local si es necesario)..."
+python3 -m pip install --upgrade --user pip
+
+# Usamos el pip actualizado local si existe
+PIP_CMD="$HOME/.local/bin/pip"
+if [ ! -f "$PIP_CMD" ]; then
+    echo "[!] pip actualizado no encontrado en ~/.local/bin. Usando pip global."
+    PIP_CMD="pip"
+fi
+
+echo "[+] Instalando PyQt6 usando binarios precompilados..."
+$PIP_CMD install PyQt6 --only-binary=:all:
+
+echo "[✓] PyQt6 instalado correctamente."
