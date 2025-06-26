@@ -48,3 +48,5 @@ Ambas herramientas buscan acercar el análisis forense de memoria a más persona
 ---
 
 by maloweer | 2025
+
+[LinkedIn - Manuel Pérez](https://www.linkedin.com/in/manuel-perez-ba7b432a0)
