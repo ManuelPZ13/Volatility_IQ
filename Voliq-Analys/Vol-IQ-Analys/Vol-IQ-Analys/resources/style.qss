@@ -1,0 +1,88 @@
+def set_dark_purple_theme(app):
+    app.setStyleSheet("""
+        QWidget {
+            background-color: #181824;
+            color: #f1f1f1;
+            font-size: 15px;
+        }
+        QTabWidget::pane, QTabBar::tab {
+            background: #181824;
+            color: #a259fc;
+        }
+        QTabBar::tab:selected {
+            background: #28203f;
+            color: #fff;
+            border-bottom: 2px solid #a259fc;
+        }
+        QTabBar::tab:!selected {
+            background: #11111A;
+            color: #a259fc;
+        }
+        QPushButton {
+            background-color: #22223b;
+            color: #fff;
+            border: 1px solid #753bbd;
+            border-radius: 7px;
+            padding: 6px 14px;
+        }
+        QPushButton:hover {
+            background-color: #2f284d;
+            color: #fff;
+            border: 1.5px solid #a259fc;
+        }
+        QLabel, QGroupBox, QComboBox, QLineEdit, QTextEdit {
+            background: transparent;
+        }
+        QGroupBox {
+            border: 1px solid #753bbd;
+            margin-top: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #a259fc;
+        }
+        QLineEdit, QTextEdit {
+            background-color: #232234;
+            color: #fff;
+            border: 1px solid #a259fc;
+            border-radius: 5px;
+        }
+        QComboBox {
+            background-color: #232234;
+            color: #fff;
+            border: 1px solid #a259fc;
+            border-radius: 5px;
+        }
+        QComboBox QAbstractItemView {
+            background-color: #232234;
+            color: #a259fc;
+            selection-background-color: #753bbd;
+        }
+        QTableWidget, QHeaderView::section {
+            background-color: #232234;
+            color: #fff;
+            border: 0.5px solid #a259fc;
+            font-size: 14px;
+        }
+        QTableWidget QTableCornerButton::section {
+            background: #753bbd;
+        }
+        QTableWidget::item:selected {
+            background-color: #a259fc;
+            color: #fff;
+        }
+        QScrollBar:vertical, QScrollBar:horizontal {
+            background: #181824;
+            width: 10px;
+            margin: 0px;
+            border-radius: 5px;
+        }
+        QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+            background: #753bbd;
+            min-height: 25px;
+            border-radius: 6px;
+        }
+        QMessageBox {
+            background-color: #181824;
+            color: #fff;
+        }
+    """)
