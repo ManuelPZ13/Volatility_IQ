@@ -18,6 +18,10 @@ Volatility3 GUI Forense es una aplicación gráfica que facilita la ejecución y
 
 Ideal tanto para laboratorios, investigaciones incidentales como para quienes desean explorar los resultados de Volatility3 sin preocuparse por la complejidad de la terminal.
 
+![WhatsApp Image 2025-06-24 at 15 28 17_6fc9f3c2](https://github.com/user-attachments/assets/0aa256be-a670-4483-ac5e-3d4ba8583b64)
+
+
+
 ---
 
 ## Vol-IQ-Analys
@@ -36,6 +40,14 @@ Sus principales capacidades incluyen:
 - **Interfaz visual moderna y profesional**, también en tema oscuro/morado.
 
 Pensada para contextos donde la correlación, el cruce de datos y la búsqueda detallada son clave para llegar a conclusiones forenses sólidas.
+
+
+![WhatsApp Image 2025-06-24 at 15 42 33_ff2c768b](https://github.com/user-attachments/assets/f1db4ff0-43c7-45fa-8c7d-faca3954a5d5)
+
+
+
+![WhatsApp Image 2025-06-24 at 15 43 39_3b2b31ef](https://github.com/user-attachments/assets/ee0333ae-24d1-454e-8aa3-f4a6f53c4252)
+
 
 ---
 
